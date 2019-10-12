@@ -1,0 +1,11 @@
+.top-header{
+    min-width: 100vh !important;
+    min-height: 35vh !important;
+    max-width: 100% !important;
+    background-color: #e9e9ef !important;
+    box-sizing: border-box;
+}
+.top-header-image{
+    margin-top: 15%;
+    margin-left: 23%;
+}

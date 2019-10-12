@@ -12,7 +12,7 @@
     <!-- Material Design for Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-material-design.min.css">
 
-    
+    <link rel="stylesheet" href="css/pages/payment.css">
 
     <title>Dashboard</title>
   </head>
@@ -65,19 +65,7 @@
                 </div>
               </nav>
 
-              
-              <style>
-              .top-header{
-                min-width: 100vh;
-                min-height: 35vh;
-                background-color: #e9e9ef;
-                box-sizing: border-box;
-              }
-              .top-header-image{
-                margin-top: 15%;
-                margin-left: 23%;
-              }
-              </style>
+            
     <div class="top-header">
       <div class="container-fluid">
         <div class="col-md-12">
@@ -85,13 +73,39 @@
             <div class="col-md-3">
                 <img class="top-header-image" src="images/stripe.png" alt="stripe">
             </div>
-            <div class="col-md-6" style="margin-top: 10%;">
+            <div class="col-md-6" style="margin-top: 5%;">
               <h4 >Stripe</h4>
+              <p style="margin-top: 2%;">
+                  Add maps based on Google Maps data to your Android application with the Maps SDK for Android. The SDK automatically handles access to Google Maps servers, map display and response to user gestures such as clicks and drags.
+              </p>
             </div>
           </div>
         </div>
       </div>
       
+    </div>
+    
+    <div class="container-fluid">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+              <h4 style="padding-top: 3%;">Overview</h4>
+              <form autocomplete="off">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-raised">Submit</button>
+                </form>
+          </div>
+        </div>
+      </div>
     </div>
     
 
